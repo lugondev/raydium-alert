@@ -3,6 +3,7 @@ resolver = "2"
 members = [
     "alerts",
     "decoders/raydium-cpmm-decoder",
+    "decoders/raydium-clmm-decoder",
     "decoders/raydium-amm-v4-decoder",
 ]
 
@@ -14,6 +15,7 @@ repository = "https://github.com/example/raydium-alert"
 
 [workspace.dependencies]
 carbon-core = "0.12.0"
+carbon-test-utils = "0.12.0"
 serde = { version = "1.0", features = ["derive"] }
 serde-big-array = "0.5"
 solana-account = "3.0"
