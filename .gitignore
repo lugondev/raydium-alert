@@ -1,0 +1,57 @@
+# Rust build artifacts
+/target/
+**/*.rs.bk
+*.pdb
+
+# Cargo lock file (uncomment if building a library)
+# Cargo.lock
+
+# IDE and editor files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+
+# Environment variables
+.env
+.env.local
+.env.*.local
+
+# Log files
+*.log
+logs/
+
+# Testing
+coverage/
+
+# OS files
+Thumbs.db
+
+# Backup files
+*.bak
+*.tmp
+
+# Debug files
+*.dSYM/
+
+# Documentation build
+/book/
+
+# Flamegraph
+flamegraph.svg
+perf.data
+perf.data.old
+
+# Profiling
+*.profdata
+
+# CI/CD
+.github/workflows/secrets/
+
+# Dependencies
+node_modules/
+.DS_Store
+
+decoders/**/target/

@@ -1,0 +1,20 @@
+[package]
+name = "raydium-alerts"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+carbon-core = "0.12.0"
+carbon-log-metrics = "0.12.0"
+carbon-raydium-cpmm-decoder = { path = "../decoders/raydium-cpmm-decoder" }
+carbon-raydium-amm-v4-decoder = { path = "../decoders/raydium-amm-v4-decoder" }
+carbon-rpc-block-subscribe-datasource = "0.12.0"
+solana-client = "3.0"
+solana-pubkey = "3.0"
+
+async-trait = "0.1"
+dotenv = "0.15"
+env_logger = "0.11"
+log = "0.4"
+solana-instruction = "3.0"
+tokio = { version = "1.0", features = ["full"] }
